@@ -1,0 +1,10 @@
+* {
+    /* Disable text selection */
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+body {
+    background: black;
+    overflow: hidden;
+}
