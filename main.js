@@ -134,4 +134,12 @@ function main() {
 
 
 
+document.addEventListener("keydown", (event) => {
+    if ("r" == event.key || "R" == event.key) {
+        for (let i = 0; i < cookieCount; i++) {
+            setCookie(cookies[i]);
+        }
+    }
+});
+
 main();
